@@ -1,0 +1,9 @@
+h1 {
+    text-shadow: 8px -8px 3px violet
+}
+.box1 {
+    box-shadow: 1px 0px 2px 3px orange;    
+}
+.box2 {
+    box-shadow: -1px 5px 5px green;
+}

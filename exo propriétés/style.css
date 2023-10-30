@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+    font-size: 50px;
+}
+h3 {
+    color:blue;
+    font-size: 30px;
+}
+.box1, .box2 {
+    background-color: grey;
+}
+strong {
+    font-style: normal;
+    color : greenyellow;
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 20px;
+    color: orange;
+}
+.titre {
+    color: green;
+    text-decoration: underline;
+    text-align: right;
+
+}
+.box3 {
+    background-color: pink;
+}
+

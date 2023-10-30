@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <fieldset>
+        <legend>Informations personnelles</legend>
+    <form method="post" action="">
+       <label for="prenom">Prénom :</label>
+        <input type="text" name="prénom" placeholder="Tapez votre prénom" maxlenght="20" minlenght="2"><br>
+       <label for="nom">Nom :</label>
+        <input type="text" name="nom" placeholder="Tapez votre nom" maxlenght="20" minlenght="2"><br>
+       <label for="email">Email :</label>
+        <input type="email" name="email" placeholder="Tapez votre email"><br>
+       <label for="tel">Télephone :</label>
+        <input type="tel" name="tel" placeholder="Tapez votre téléphone"><br>
+       <label for="password">Mot de passe :</label>
+        <input type="password" name="password" placeholder="Tapez votre mot de passe" maxlenght="30" minlenght="8"><br>
+       <label for="age">Age :</label>
+        <input type="age" name="age" placeholder="Tapez votre âge"><br>
+       <label for="textarea">Votre commentaire :</label><br>
+        <textarea placeholder="Tapez votre message" cols="70" rows="10"></textarea><br>
+       <label for="date">Date du commentaire</label>
+        <input type="date"><br>
+       <label for="file">Envoyez votre fichier</label>
+        <input type="file" accept=".png, .jpg, .gif"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Vous préférez</legend>
+        <input type="checkbox" id="checkbox" checked/><label for="checkbox">Le HTML</label><br>
+        <input type="checkbox" id="checkbox2"/><label for="checkbox">Le CSS</label><br>
+        <input type="checkbox" id="checkbox3"/><label for="checkbox">Le JavaScript</label><br>
+        <input type="checkbox" id="checkbox4"/><label for="checkbox">Ne rien faire</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Vous vous levez :</legend>
+        <select name="liste">
+            <option value="option1">Le matin</option>
+            <option value="option2">Le midi</option>
+            <option value="option3">Le soir</option>
+            <option value="option4">En retard</option>
+        </select>
+
+    </fieldset>
+
+    </form>
+</body>
+</html>
