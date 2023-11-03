@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+p {
+    background-color: grey;
+    border: 2px solid green;
+}
+.box1 {
+    height: 100px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.box2 {
+    width: 50%;
+    margin: 20px 5px;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+

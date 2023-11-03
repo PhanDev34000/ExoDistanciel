@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    background-color: violet;
+}
+
+p {
+    background-color: grey;
+    border: 2px solid green;
+}
+.box1 {
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+}
+ .box2 {
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+ }
+
+ .box3 {
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+ }

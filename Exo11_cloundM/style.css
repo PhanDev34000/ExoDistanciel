@@ -1,0 +1,12 @@
+.photo :hover {
+    transform: scale(2);
+}
+
+.photo :focus {
+    transform: rotate(180deg);
+}
+
+.photo2 :hover {
+    transform: skewX(40deg)
+}
+
