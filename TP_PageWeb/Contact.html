@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+        <header>
+        <h1>Bienvenue sur mon site !</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li>Galerie</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>    
+    </header>
+    <main>
+        <fieldset>
+            <legend>Informations personnelles</legend>
+         <form method="post" action="monProgramme.php">
+            <div>
+            <label class="box1" for="nom">Nom :</label>
+               <input type="text" name="nom" placeholder="Tapez votre nom" maxlenght="20" minlenght="2"><br>
+            </div>
+            <div>
+               <label class="box2" for="email">Email :</label>
+              <input type="email" name="email" placeholder="Tapez votre email"><br>
+            </div>
+            <div>
+            <label for="textarea">Votre commentaire :</label><br>
+              <textarea placeholder="Tapez votre message" cols="70" rows="10"></textarea><br>
+            </div>
+            <div>
+                <input type="checkbox" name="case" checked>Envoyer une copie par  
+            </div>
+                <input type="submit" value="Envoyer"><br>
+                <input type="reset" value="Reset"/>
+            </div>
+
+         </form>
+        </fieldset>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="fictive1.html">Page 1</a></li>
+            <li><a href="fictive2.html">Page 2</a></li>
+            <li><a href="fictive3.html">Page 3</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

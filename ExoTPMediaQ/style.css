@@ -1,0 +1,91 @@
+.box1 {
+    background-color: lightgrey;
+    width: 650px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+.media {
+    color: blueviolet;
+    margin-left: 10px;
+}
+
+h1 {
+    background-color: lightgrey;
+    text-align: center;
+    width: 650px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+h2 {
+    color: grey
+}
+
+.page {
+    background-color: lightgrey;
+}
+
+.p1, .p3, .p4, .p5 {
+    background-color: white;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+
+.p2, .p6 {
+    background-color: blueviolet;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    #first {
+    background-color: blueviolet;
+    color: white;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;}
+}
+@media screen and (max-width: 800px) {
+    #second {
+    background-color: blueviolet;
+    color: black;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;}
+}
+@media screen and (min-width:1024px) and (max-width: 1280px) {
+    #third {
+    background-color: blueviolet;
+    color: white;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;}
+}
+@media screen and (max-width: 480px) {
+    #fourth {
+    background-color: blueviolet;
+    color: white;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;}
+}
+@media screen and (orientation: portait) {
+    #fith {
+    background-color: blueviolet;
+    color: white;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;}
+}
+@media screen and (orientation: landscape) {
+    #six {
+    background-color: blueviolet;
+    color: white;
+    width: 630px;
+    height: 20px;
+    margin-left: 10px;}
+}

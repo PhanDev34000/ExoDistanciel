@@ -1,0 +1,15 @@
+form {
+    height: 250px;
+    width: 400px;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#bouton {
+    display: flex;
+    text-align: center;
+}
